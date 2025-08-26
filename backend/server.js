@@ -1,5 +1,8 @@
 const express = require("express");
 const app = express();
+//npm install cors - Permite/Autoriza requisição no servidor
+const cors = require("cors")
+app.use(cors());
 
 const port = 5001;
 

@@ -1,3 +1,5 @@
+import Exemplo from "./components/exemplo";
+
 function App() {
   
   //Declaração de Variáveis
@@ -25,6 +27,8 @@ function App() {
       <h2>A soma da Função é: {soma(10,8)}</h2>
       <h3>o desconto da Arrow Function é: {desconto(10,8)}%</h3>
       <button onClick={enviar}>Clique Aqui</button>
+
+      <Exemplo/>
     </>
   )
 }
